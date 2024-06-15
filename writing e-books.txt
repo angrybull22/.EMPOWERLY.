@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing and Selling E-books - Empowerly</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .course-container {
+            max-width: 800px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .course-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .course-introduction {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="course-container">
+    <div class="course-title">Writing and Selling E-books</div>
+    <div class="course-introduction">
+        Welcome to the Writing and Selling E-books course! Discover how to write, publish, and market your e-books. This course will guide you through the process of creating compelling content, formatting your book, and utilizing online platforms to reach a global audience and generate sales.
+    </div>
+</div>
+
+</body>
+</html>

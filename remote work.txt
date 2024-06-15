@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Work - Empowerly</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .course-container {
+            max-width: 800px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .course-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .course-introduction {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="course-container">
+    <div class="course-title">Remote Work</div>
+    <div class="course-introduction">
+        Welcome to the Remote Work course! This course will help you find and excel in remote job opportunities. Learn about the best remote job platforms, how to create a productive work environment, and strategies for effective remote collaboration and communication.
+    </div>
+</div>
+
+</body>
+</html>

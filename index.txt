@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowerly</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        .welcome-message {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .courses {
+            display: none;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .course-box {
+            background-color: #28a745;
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 15px;
+            cursor: pointer;
+            width: 200px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .course-box:hover {
+            background-color: #218838;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="welcome-message" id="welcomeMessage">
+        Welcome to Empowerly! Your journey to bettering yourself starts here.
+    </div>
+    <div class="courses" id="courses">
+        <div class="course-box" onclick="navigateToCourse('freelancing')">Freelancing</div>
+        <div class="course-box" onclick="navigateToCourse('online-tutoring')">Online Tutoring and Teaching</div>
+        <div class="course-box" onclick="navigateToCourse('ecommerce')">E-commerce</div>
+        <div class="course-box" onclick="navigateToCourse('content-creation')">Content Creation</div>
+        <div class="course-box" onclick="navigateToCourse('affiliate-marketing')">Affiliate Marketing</div>
+        <div class="course-box" onclick="navigateToCourse('stock-photography')">Stock Photography and Art Sales</div>
+        <div class="course-box" onclick="navigateToCourse('online-surveys')">Online Surveys and Market Research</div>
+        <div class="course-box" onclick="navigateToCourse('remote-work')">Remote Work</div>
+        <div class="course-box" onclick="navigateToCourse('investing')">Investing</div>
+        <div class="course-box" onclick="navigateToCourse('virtual-assistance')">Virtual Assistance</div>
+        <div class="course-box" onclick="navigateToCourse('dropshipping')">Dropshipping</div>
+        <div class="course-box" onclick="navigateToCourse('ebooks')">Writing and Selling E-books</div>
+        <div class="course-box" onclick="navigateToCourse('app-development')">App and Software Development</div>
+        <div class="course-box" onclick="navigateToCourse('cryptocurrency')">Cryptocurrency and NFTs</div>
+        <div class="course-box" onclick="navigateToCourse('subscriptions')">Subscription Services and Memberships</div>
+        <div class="course-box" onclick="navigateToCourse('transcription')">Transcription and Translation</div>
+        <div class="course-box" onclick="navigateToCourse('fitness-health')">Fitness/Health</div>
+    </div>
+</div>
+
+<script>
+    window.onload = function() {
+        setTimeout(showCourses, 3000); // 3 seconds delay
+    };
+
+    function showCourses() {
+        document.getElementById('welcomeMessage').style.display = 'none';
+        document.getElementById('courses').style.display = 'flex';
+    }
+
+    function navigateToCourse(course) {
+        window.location.href = course + ".html";
+    }
+</script>
+
+</body>
+</html>

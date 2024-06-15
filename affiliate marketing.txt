@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Marketing - Empowerly</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .course-container {
+            max-width: 800px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .course-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .course-introduction {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="course-container">
+    <div class="course-title">Affiliate Marketing</div>
+    <div class="course-introduction">
+        Welcome to the Affiliate Marketing course! Learn how to earn commissions by promoting products and services online. This course covers choosing the right affiliate programs, creating compelling content, and optimizing your campaigns for maximum earnings.
+    </div>
+</div>
+
+</body>
+</html>

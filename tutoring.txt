@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Tutoring and Teaching - Empowerly</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .course-container {
+            max-width: 800px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .course-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .course-introduction {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="course-container">
+    <div class="course-title">Online Tutoring and Teaching</div>
+    <div class="course-introduction">
+        Welcome to the Online Tutoring and Teaching course! This course will guide you through the process of becoming an effective online educator. Learn how to create engaging lessons, connect with students, and build a successful teaching career from the comfort of your home.
+    </div>
+</div>
+
+</body>
+</html>
